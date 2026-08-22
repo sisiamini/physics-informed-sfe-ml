@@ -1,0 +1,1 @@
+Nested exact-composition-grouped validation estimated that 77.5% of predictions classified inside the applicability domain had absolute percentage error ≤20%, with 47.4% validation coverage. The operational rule requires both the visible composition ranges and the kNN dense-composition criterion.

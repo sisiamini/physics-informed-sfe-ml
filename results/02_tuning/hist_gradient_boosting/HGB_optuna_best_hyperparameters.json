@@ -1,0 +1,12 @@
+{
+    "loss": "squared_error",
+    "learning_rate": 0.019845299541100227,
+    "max_iter": 700,
+    "max_leaf_nodes": 63,
+    "max_depth": 3,
+    "min_samples_leaf": 10,
+    "l2_regularization": 4.388519567467927,
+    "max_bins": 255,
+    "early_stopping": false,
+    "random_state": 42
+}

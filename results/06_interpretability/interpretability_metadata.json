@@ -1,0 +1,19 @@
+{
+    "analysis": "Post-hoc interpretability of frozen final XGBoost model",
+    "development_n": 352,
+    "holdout_n": 89,
+    "feature_count": 28,
+    "shap_evaluation_data": "Reserved 20% holdout",
+    "shap_feature_perturbation": "tree_path_dependent",
+    "holdout_metrics_reproduced_for_consistency": {
+        "R2": 0.7059314855750767,
+        "RMSE": 8.167278951441645,
+        "MAE": 4.809677133581612
+    },
+    "top_holdout_shap_feature": "Ni (%wt)",
+    "top_holdout_shap_feature_group": "Composition",
+    "SHAP_Additivity_Max_Absolute_Error": 5.65284863114357e-05,
+    "SHAP_Additivity_Mean_Absolute_Error": 1.5472075993488175e-05,
+    "interpretation_warning": "SHAP and tree importance describe fitted-model behaviour. They do not establish physical causality, and correlated or derived predictors may share attribution.",
+    "model_change_permitted": false
+}

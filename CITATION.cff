@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite this repository."
+title: "Physics-Informed SFE ML"
+type: software
+authors:
+  - family-names: "Amini"
+    given-names: "Seyedeh Saeedeh"
+version: "1.0.0"
+repository-code: "https://github.com/sisiamini/physics-informed-sfe-ml"

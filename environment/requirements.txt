@@ -1,0 +1,31 @@
+# Final direct dependencies for physics-informed-sfe-ml
+#
+# Versions are pinned to the archived project environment used by the final
+# workflow. The archived virtual environment is Python 3.12.10.
+#
+# Recreate:
+#   python -m venv .venv
+#   .\.venv\Scripts\Activate.ps1
+#   python -m pip install --upgrade pip
+#   python -m pip install -r environment/requirements.txt
+#
+# For the fully frozen environment, use requirements-lock.txt.
+
+# Core numerical/data stack
+numpy==2.2.3
+pandas==2.2.3
+matplotlib==3.10.6
+scikit-learn==1.7.2
+joblib==1.5.2
+
+# Machine-learning model families used in screening/final modelling
+xgboost==3.2.0
+lightgbm==4.6.0
+catboost==1.2.10
+
+# Optimisation and interpretability
+optuna==4.9.0
+shap==0.52.0
+
+# Streamlit deployment
+streamlit==1.60.0

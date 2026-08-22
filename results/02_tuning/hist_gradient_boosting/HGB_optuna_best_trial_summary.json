@@ -1,0 +1,24 @@
+{
+    "best_trial_number": 82,
+    "best_cv_rmse": 11.164145546806663,
+    "best_params": {
+        "loss": "squared_error",
+        "learning_rate": 0.019845299541100227,
+        "max_iter": 700,
+        "max_leaf_nodes": 63,
+        "max_depth": 3,
+        "min_samples_leaf": 10,
+        "l2_regularization": 4.388519567467927,
+        "max_bins": 255,
+        "early_stopping": false,
+        "random_state": 42
+    },
+    "best_trial_user_attrs": {
+        "CV_R2_mean": 0.5592678047641778,
+        "CV_R2_std": 0.1245383056968449,
+        "CV_RMSE_mean": 11.164145546806663,
+        "CV_RMSE_std": 1.963318198063075,
+        "CV_MAE_mean": 7.028734564264225,
+        "CV_MAE_std": 0.7720828512774948
+    }
+}

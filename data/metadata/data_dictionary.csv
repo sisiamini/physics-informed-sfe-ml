@@ -1,0 +1,36 @@
+﻿column_name,category,role,unit,description,derivation_or_source,present_in_raw_dataset,present_in_processed_dataset,dtype,missing_count_raw,missing_count_processed,observed_min,observed_max,used_as_model_predictor,notes
+No.,Identifier,Identifier,,Sequential observation identifier.,Assigned sequentially in the curated dataset.,True,True,int64,0,0,1.0,441.0,False,Excluded from model predictors.
+Fe (%wt),Composition,Predictor,wt.%,Fe content in weight percent.,Curated literature composition; Fe stored as the balance value giving 100 wt.% closure.,True,True,float64,0,0,19.21,86.46,True,
+Mn (%wt),Composition,Predictor,wt.%,Mn content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,32.69,True,
+Al (%wt),Composition,Predictor,wt.%,Al content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,5.03,True,
+C (%wt),Composition,Predictor,wt.%,C content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,1.2,True,
+Ni (%wt),Composition,Predictor,wt.%,Ni content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,40.0,True,
+Cr (%wt),Composition,Predictor,wt.%,Cr content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,30.0,True,
+Si (%wt),Composition,Predictor,wt.%,Si content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,6.22,True,
+Cu (%wt),Composition,Predictor,wt.%,Cu content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,4.05,True,
+Mo (%wt),Composition,Predictor,wt.%,Mo content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,2.7,True,
+Nb (%wt),Composition,Predictor,wt.%,Nb content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,0.015,True,
+V (%wt),Composition,Predictor,wt.%,V content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,1.0,True,
+Ti (%wt),Composition,Predictor,wt.%,Ti content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,0.066,True,
+Co (%wt),Composition,Predictor,wt.%,Co content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,21.43,True,
+N (%wt),Composition,Predictor,wt.%,N content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,1.0,True,
+P (%wt),Composition,Predictor,wt.%,P content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,0.071,True,
+S (%wt),Composition,Predictor,wt.%,S content in weight percent.,Curated literature composition.,True,True,float64,0,0,0.0,0.72,True,
+SFE,Target,Target (raw dataset name),mJ/m²,Experimental stacking-fault energy as recorded in the curated literature dataset.,Experimental literature value.,True,False,float64,0,,3.26,131.0,False,Excluded from model predictors.
+DOI,Provenance / experimental metadata,Provenance metadata,,Digital Object Identifier or DOI string recorded for the source publication.,Recorded from source publication.,True,False,object,0,,,,False,Excluded from model predictors.
+T,Provenance / experimental metadata,Experimental metadata,K,Experimental temperature represented in the curated dataset.,Recorded/standardized experimental metadata.,True,False,int64,0,,300.0,300.0,False,Excluded from model predictors.
+Method,Provenance / experimental metadata,Experimental metadata,,Classification of the SFE value source.,Recorded/standardized experimental metadata.,True,False,object,0,,,,False,Excluded from model predictors.
+Technique,Provenance / experimental metadata,Experimental metadata,,Experimental technique used to determine SFE.,Recorded experimental technique.,True,False,object,0,,,,False,Excluded from model predictors.
+R_mean (pm),Descriptor,Predictor,pm,Atomic-fraction-weighted mean elemental atomic radius across the 16 represented elements.,Derived from wt.% composition after conversion to atomic fractions: Σ x_i R_i.,False,True,float64,,0,122.8666258231856,127.53508182916748,True,
+R_std (pm),Descriptor,Predictor,pm,Atomic-fraction-weighted standard deviation of elemental atomic radius across the 16 represented elements.,Derived from atomic fractions: sqrt(Σ x_i (R_i - R_mean)^2).,False,True,float64,,0,0.4506070077269213,12.84114509897793,True,
+Δχ,Descriptor,Predictor,dimensionless,Atomic-fraction-weighted standard deviation of Pauling electronegativity.,Derived from atomic fractions: sqrt(Σ x_i (χ_i - χ_mean)^2).,False,True,float64,,0,0.0607885692507962,0.2566270032646618,True,
+VEC_mean,Descriptor,Predictor,electrons/atom (nominal weighted mean),Atomic-fraction-weighted mean nominal valence electron count.,Derived from atomic fractions: Σ x_i VEC_i.,False,True,float64,,0,7.203126246797447,8.412107085095961,True,
+SFE_Akbari (mJ/m²),Published SFE-model output,Predictor,mJ/m²,Stacking-fault-energy output calculated using the Akbari formulation.,Calculated from composition by the corresponding formulation script called by SFE_Master.py.,False,True,float64,,0,-6.553016683570679e+16,85.6555131450922,True,
+SFE_Allain (mJ/m²),Published SFE-model output,Predictor,mJ/m²,Stacking-fault-energy output calculated using the Allain formulation.,Calculated from composition by the corresponding formulation script called by SFE_Master.py.,False,True,float64,,0,-1.453423714892826e+30,42.030883215230936,True,
+SFE_Dumay (mJ/m²),Published SFE-model output,Predictor,mJ/m²,Stacking-fault-energy output calculated using the Dumay formulation.,Calculated from composition by the corresponding formulation script called by SFE_Master.py.,False,True,float64,,0,-8.335157557677928e+25,41.711889964286414,True,
+SFE_Elaraby (mJ/m²),Published SFE-model output,Predictor,mJ/m²,Stacking-fault-energy output calculated using the Elaraby formulation.,Calculated from composition by the corresponding formulation script called by SFE_Master.py.,False,True,float64,,0,2.961443334346876,337.98254541072623,True,
+SFE_Wang (mJ/m²),Published SFE-model output,Predictor,mJ/m²,Stacking-fault-energy output calculated using the Wang formulation.,Calculated from composition by the corresponding formulation script called by SFE_Master.py.,False,True,float64,,0,-4.9608022961159763e+42,45.81556600285222,True,
+SFE_Xiong (mJ/m²),Published SFE-model output,Predictor,mJ/m²,Stacking-fault-energy output calculated using the Xiong formulation.,Calculated from composition by the corresponding formulation script called by SFE_Master.py.,False,True,float64,,0,-38.244193970269166,84.04128224984306,True,
+SFE_Yoo (mJ/m²),Published SFE-model output,Predictor,mJ/m²,Stacking-fault-energy output calculated using the Yoo formulation.,Calculated from composition by the corresponding formulation script called by SFE_Master.py.,False,True,float64,,0,-3.206227839052057e+29,55.17370195025004,True,
+SFE_Zambrano (mJ/m²),Published SFE-model output,Predictor,mJ/m²,Stacking-fault-energy output calculated using the Zambrano formulation.,Calculated from composition by the corresponding formulation script called by SFE_Master.py.,False,True,float64,,0,-21.595728610065883,91.24844852706748,True,
+SFE_Experimental (mJ/m²),Target,Target,mJ/m²,Canonical experimental stacking-fault-energy regression target.,Renamed from raw dataset column `SFE` by SFE_with_Descriptors.py.,False,True,float64,,0,3.26,131.0,False,Excluded from model predictors.

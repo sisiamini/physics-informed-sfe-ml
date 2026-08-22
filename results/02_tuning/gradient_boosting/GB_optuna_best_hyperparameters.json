@@ -1,0 +1,16 @@
+{
+    "n_estimators": 450,
+    "learning_rate": 0.0363548167266166,
+    "max_depth": 3,
+    "min_samples_split": 7,
+    "min_samples_leaf": 3,
+    "subsample": 0.7406222361513626,
+    "max_features": "log2",
+    "loss": "huber",
+    "criterion": "friedman_mse",
+    "random_state": 42,
+    "alpha": 0.9472221287070752,
+    "n_iter_no_change": 23,
+    "validation_fraction": 0.15100329642324195,
+    "tol": 6.123021030879258e-05
+}

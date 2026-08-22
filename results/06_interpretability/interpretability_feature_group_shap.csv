@@ -1,0 +1,4 @@
+Rank,Feature_Group,Feature_Count,Aggregate_Mean_Absolute_SHAP,SHAP_Group_Share_percent
+1,Composition,16,12.43585554799562,66.90517183746475
+2,Published SFE-model outputs,8,3.805689342717936,20.474690981401018
+3,Composition-derived descriptors,4,2.34574097443079,12.620137181134236

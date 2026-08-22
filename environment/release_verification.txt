@@ -1,0 +1,48 @@
+Physics-Informed SFE ML
+Final Release Verification
+
+Verification date: 22 August 2026
+Verification status: PASS
+
+Canonical environment:
+Python: 3.12.10
+NumPy: 2.2.3
+pandas: 2.2.3
+scikit-learn: 1.7.2
+Joblib: 1.5.2
+XGBoost: 3.2.0
+LightGBM: 4.6.0
+CatBoost: 1.2.10
+Optuna: 4.9.0
+SHAP: 0.52.0
+Streamlit: 1.60.0
+Matplotlib: 3.10.6
+
+Automated test command:
+python -m unittest discover -s .\tests -p "test_*.py" -v
+
+Automated test result:
+Ran 28 tests
+OK
+
+Production artefacts verified:
+models/production/final_xgboost_full_data_pipeline.joblib
+models/production/composition_domain_reference.joblib
+models/production/domain_summary.json
+
+Streamlit application:
+python -m streamlit run .\app\app.py
+
+Application launch: PASS
+Manual application validation: PASS
+
+Manual checklist:
+tests/manual/app_validation_checklist.md
+
+Screenshot evidence:
+docs/app/screenshots/
+
+Final release status: PASS
+
+These checks establish software and implementation consistency.
+They do not constitute independent external validation of the predictive model.
