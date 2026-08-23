@@ -172,12 +172,8 @@ For the methodological sequence and validation logic, see:
 
 ## Reproducibility and scope
 
-This repository is designed to make the final computational artefact inspectable and reproducible. The following scope limitations should be retained when interpreting the results:
+This repository provides the complete computational artefact used to reproduce the reported workflow, including the curated data, fixed development/holdout split, feature-generation stages, evaluation outputs, production artefacts, environment specification, and application tests.
 
-- the compiled observations come from the available literature dataset rather than an independently designed experimental campaign;
-- exact-composition-grouped validation is stricter than ordinary row-wise validation but is still internal validation;
-- the applicability-domain procedure is nested cross-validated within the compiled dataset;
-- no independent external dataset was available for final external validation;
-- SHAP attribution describes model behaviour rather than physical causality.
+The reported holdout, row-wise cross-validation, exact-composition-grouped cross-validation, SHAP, and nested applicability-domain analyses evaluate the model within the compiled literature dataset. Exact-composition grouping provides a stricter internal assessment by preventing identical nominal compositions from crossing folds, while independent external validation on newly assembled data remains a future extension. SHAP values are interpreted as model attribution rather than physical causality.
 
-These limitations are treated as part of the scientific interpretation rather than hidden implementation details.
+Within this scope, the repository provides a reproducible and auditable workflow for experimental SFE screening and for evaluating the contribution of composition, elemental-property descriptors, and published SFE-model outputs.
