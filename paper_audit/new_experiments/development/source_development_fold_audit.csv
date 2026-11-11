@@ -1,0 +1,6 @@
+Fold,Train_n,Validation_n,Train_groups,Validation_groups,Group_overlap,Other_Grouping,Other_Grouping_Overlap,Validation_target_mean
+1,257,95,49,1,0,composition,0,43.727368421052624
+2,287,65,41,9,0,composition,2,38.1876923076923
+3,288,64,38,12,0,composition,0,29.5996875
+4,288,64,36,14,0,composition,2,30.97859375
+5,288,64,36,14,0,composition,0,25.03703125

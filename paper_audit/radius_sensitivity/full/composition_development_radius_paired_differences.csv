@@ -1,0 +1,5 @@
+Grouping,Scope,Representation,Comparison,RMSE_original_minus_alternative,CI_lower,CI_upper,Bootstrap_groups,Caveat,SMOKE_ONLY
+composition,development,full,covalent_minus_original,-0.14987174236082623,-0.45001293105453954,0.09477282593381073,composition,Conditional on fixed OOF predictions; no model refitting in bootstrap,False
+composition,development,full,no_radius_minus_original,-0.11811572001180437,-0.28352931491991723,0.014088659931639737,composition,Conditional on fixed OOF predictions; no model refitting in bootstrap,False
+composition,development,descriptors,covalent_minus_original,-0.329842407860804,-0.7238430090835818,-0.036401901180921105,composition,Conditional on fixed OOF predictions; no model refitting in bootstrap,False
+composition,development,descriptors,no_radius_minus_original,-0.11197638946016042,-0.48703348542440783,0.15033828400676985,composition,Conditional on fixed OOF predictions; no model refitting in bootstrap,False

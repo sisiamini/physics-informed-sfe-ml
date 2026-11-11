@@ -1,0 +1,19 @@
+{
+  "outer_grouping": "exact-composition groups (archived nested OOF)",
+  "model_predictions": "unchanged original outer-fold predictions",
+  "k": 10,
+  "training_distance_quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "threshold_rules": "trained on OUTER-TRAIN composition distances only; no target-based selection",
+  "equal_count_diagnostic": "uses outer-validation compositions to select exactly the original count per fold; not a deployable rule or confirmatory test",
+  "comparison_scope": "post-hoc descriptive benchmark on previously analyzed dataset; independent new external test not performed"
+}
