@@ -1,0 +1,31 @@
+{
+  "scope": "development",
+  "grouping": [
+    "source",
+    "composition"
+  ],
+  "folds": 5,
+  "bootstrap_draws": 1000,
+  "smoke_only": false,
+  "radius_source": "Cordero et al 2008; ASE covalent_radii",
+  "covalent_radius_pm": {
+    "Fe": 132,
+    "Mn": 139,
+    "Al": 121,
+    "C": 76,
+    "Ni": 124,
+    "Cr": 139,
+    "Si": 111,
+    "Cu": 132,
+    "Mo": 154,
+    "Nb": 164,
+    "V": 153,
+    "Ti": 160,
+    "Co": 126,
+    "N": 71,
+    "P": 107,
+    "S": 105
+  },
+  "original_radius_descriptor_audit": "PASSED",
+  "original_holdout_used_for_training": false
+}

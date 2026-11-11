@@ -1,0 +1,6 @@
+Fold,Train_n,Validation_n,Train_groups,Validation_groups,Group_overlap,Other_Grouping,Other_Grouping_Overlap,Validation_target_mean
+1,281,71,237,60,0,source,22,32.9705633802817
+2,281,71,237,60,0,source,22,34.515492957746474
+3,282,70,238,59,0,source,22,32.546428571428564
+4,282,70,238,59,0,source,20,37.205571428571425
+5,282,70,238,59,0,source,23,34.87900000000001

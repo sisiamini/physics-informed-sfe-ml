@@ -1,0 +1,2 @@
+Grouping,Scope,RMSE_composition_minus_full,Percent_RMSE_improvement,Group_bootstrap_CI_2_5,Group_bootstrap_median,Group_bootstrap_CI_97_5,CI_note,SMOKE_ONLY
+source,development,-0.7345646509136401,-5.138096126585023,-1.7005718249954298,-0.7038130819075592,0.6337079973299374,Conditional on fixed OOF predictions; clustered by exact group; does not account for model refitting,False
